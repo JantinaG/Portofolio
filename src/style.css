@@ -2,6 +2,8 @@
   --heading-font: "Kalam", cursive;
   --written-font: "Raleway", sans-serif;
   --primary-color: #e4e4e4;
+  --dark-opacity: rgba(0, 0, 0, 0.6);
+  --light-opacity: rgba(255, 255, 255, 0.9);
 }
 
 body {
@@ -16,7 +18,7 @@ header {
   padding-right: 20px;
   padding-bottom: 30px;
   color: var(--primary-color);
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -38,8 +40,8 @@ header a {
 
 /* NavBar Styling */
 nav {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: rgba(0, 0, 0, 0.9) !important;
+  background-color: var(--light-opacity);
+  color: var(--dark-opacity) !important;
   padding-left: 20px;
 }
 
@@ -51,11 +53,27 @@ nav {
 }
 
 nav a {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: var(--dark-opacity) !important;
+}
+
+/* Home styling */
+.home-story {
+  background-color: var(--light-opacity);
+  color: var(--dark-opacity);
+  font-family: var(--written-font) !important;
+  border-radius: 5px;
 }
 
 p {
-  font-size: 12pt;
+  font-size: 14pt;
+}
+
+.creation-link {
+  color: var(--dark-opacity) !important;
+}
+
+.creation-link:hover {
+  font-weight: 700 !important;
 }
 
 .navigation-buttons {
