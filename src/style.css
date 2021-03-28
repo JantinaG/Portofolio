@@ -1,5 +1,46 @@
+:root {
+  --heading-font: "Kalam", cursive;
+  --written-font: "Raleway", sans-serif;
+  --primary-color: #e4e4e4;
+}
+
 body {
-  background-color: cornsilk;
+  background-image: url("/images/flower.JPG");
+  background-size: 100%;
+}
+
+header {
+  padding-top: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  color: var(--primary-color);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  padding-top: 30px;
+  font-family: var(--heading-font) !important;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: var(--written-font) !important;
+  font-weight: 300;
+}
+
+header a {
+  color: var(--primary-color) !important;
+  padding-top: 30px;
+  font-size: 30pt;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 12pt;
 }
 
 .navigation-buttons {
