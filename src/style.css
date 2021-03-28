@@ -76,7 +76,17 @@ p {
   font-weight: 700 !important;
 }
 
-.navigation-buttons {
-  background-color: #234564;
-  color: blanchedalmond;
+/* Footer styling */
+footer {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: var(--dark-opacity) !important;
+  font-family: var(--written-font) !important;
+}
+
+footer a {
+  color: var(--dark-opacity) !important;
+}
+
+footer a:hover {
+  font-weight: 700 !important;
 }
