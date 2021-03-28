@@ -33,9 +33,10 @@
     <title>Jantina's Creations</title>
   </head>
   <body>
-     <div class="container-fluid">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 px-0 text-center">
+          <!-- Header -->
           <header>
             <img
               src="/images/me.jpg"
@@ -65,7 +66,35 @@
             </div>
           </header>
         </div>
-        <div class="col-md-8"></div>
+        <div class="col-md-8 px-0">
+          <!-- NavBar -->
+          <nav class="navbar sticky-top py-0 navbar-expand-md navbar-light">
+            <a class="navbar-brand pb-0" href="/index.html">JE</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/mystory.html"
+                  >My Story</a
+                >
+                <a class="nav-link" href="/mycreations.html">My Creations</a>
+                <a class="nav-link" href="/contact.html">Contact me</a>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
   </body>

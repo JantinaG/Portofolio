@@ -9,6 +9,7 @@ body {
   background-size: 100%;
 }
 
+/* Header styling */
 header {
   padding-top: 130px;
   padding-left: 20px;
@@ -35,8 +36,22 @@ header a {
   font-size: 30pt;
 }
 
-h4 {
-  font-weight: 400;
+/* NavBar Styling */
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.9) !important;
+  padding-left: 20px;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font);
+  font-size: 30pt;
+  font-weight: 700;
+  padding-top: 7px !important;
+}
+
+nav a {
+  color: rgba(0, 0, 0, 0.9) !important;
 }
 
 p {
