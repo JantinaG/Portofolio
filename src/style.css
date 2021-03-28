@@ -12,13 +12,16 @@ body {
 }
 
 /* Header styling */
+.col-md-4 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 header {
   padding-top: 130px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 30px;
   color: var(--primary-color);
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -77,14 +80,15 @@ p {
 }
 
 /* Footer styling */
-footer {
-  background-color: rgba(255, 255, 255, 0.6);
-  color: var(--dark-opacity) !important;
+footer p {
+  background-color: var(--dark-opacity);
+  color: var(--light-opacity) !important;
   font-family: var(--written-font) !important;
+  font-size: 12pt;
 }
 
 footer a {
-  color: var(--dark-opacity) !important;
+  color: var(--light-opacity) !important;
 }
 
 footer a:hover {
