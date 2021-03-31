@@ -71,13 +71,31 @@ p {
   font-size: 14pt;
 }
 
-/* Home styling */
-.creation-link {
+.p-link {
   color: var(--dark-opacity) !important;
+  text-align: center !important;
 }
 
-.creation-link:hover {
+.p-link:hover {
   font-weight: 700 !important;
+}
+
+/* Creations styling */
+.card {
+  background-color: var(--light-opacity);
+  color: var(--dark-opacity);
+  font-family: var(--written-font) !important;
+}
+
+.btn {
+  background-color: var(--dark-opacity);
+  color: var(--light-opacity) !important;
+  font-family: var(--written-font) !important;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--dark-opacity) !important;
 }
 
 /* Footer styling */
