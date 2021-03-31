@@ -59,8 +59,8 @@ nav a {
   color: var(--dark-opacity) !important;
 }
 
-/* Home styling */
-.home-story {
+/* Generic styling */
+.story {
   background-color: var(--light-opacity);
   color: var(--dark-opacity);
   font-family: var(--written-font) !important;
@@ -71,6 +71,7 @@ p {
   font-size: 14pt;
 }
 
+/* Home styling */
 .creation-link {
   color: var(--dark-opacity) !important;
 }
