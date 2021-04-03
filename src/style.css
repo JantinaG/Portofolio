@@ -69,11 +69,11 @@ nav a {
 
 p {
   font-size: 14pt;
+  font-family: var(--written-font) !important;
 }
 
 .p-link {
   color: var(--dark-opacity) !important;
-  text-align: center !important;
 }
 
 .p-link:hover {
