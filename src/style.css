@@ -11,6 +11,12 @@ body {
   background-size: 100%;
 }
 
+.container-fluid {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: calc(100% - 50px) !important;
+}
+
 /* Header styling */
 .col-md-4 {
   background-color: rgba(0, 0, 0, 0.5);
@@ -98,12 +104,19 @@ p {
   color: var(--dark-opacity) !important;
 }
 
+@media (max-width: 1200px) {
+  .card {
+    margin: 0 auto !important;
+  }
+}
+
 /* Footer styling */
 footer p {
   background-color: var(--dark-opacity);
   color: var(--light-opacity) !important;
   font-family: var(--written-font) !important;
   font-size: 12pt;
+  margin-bottom: 0 !important;
 }
 
 footer a {
